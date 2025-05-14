@@ -1,17 +1,16 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.7.0/schema.json",
   "name": "priority_matrix",
   "position": {
-    "x": 220,
-    "y": 220,
-    "z": 1006,
-    "height": 290,
-    "width": 470,
-    "tabOrder": 1006
+    "x": 0,
+    "y": 105.94594594594595,
+    "z": 5000,
+    "height": 219.45945945945948,
+    "width": 484.03551251008867,
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "scatterChart",
-    "drillFilterOtherVisuals": true,
     "objects": {
       "legend": [
         {
@@ -28,31 +27,6 @@
                 "Literal": {
                   "Value": "'Bottom'"
                 }
-              }
-            }
-          }
-        }
-      ],
-      "title": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Priority Matrix'"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": "#333333"
               }
             }
           }
@@ -84,6 +58,8 @@
           }
         }
       ]
-    }
-  }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "36776d8464d325e8e7de"
 }

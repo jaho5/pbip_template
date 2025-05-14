@@ -1,17 +1,16 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.7.0/schema.json",
   "name": "status_chart",
   "position": {
-    "x": 220,
-    "y": 220,
-    "z": 1006,
-    "height": 290,
+    "x": 0,
+    "y": 106.53658536585365,
+    "z": 6000,
+    "height": 220.6829268292683,
     "width": 470,
-    "tabOrder": 1006
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "donutChart",
-    "drillFilterOtherVisuals": true,
     "objects": {
       "legend": [
         {
@@ -32,32 +31,9 @@
             }
           }
         }
-      ],
-      "title": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Status'"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": "#333333"
-              }
-            }
-          }
-        }
       ]
-    }
-  }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "4354e8d7a1e32263c106"
 }

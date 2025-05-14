@@ -1,17 +1,16 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.7.0/schema.json",
   "name": "categories_chart",
   "position": {
-    "x": 220,
-    "y": 530,
-    "z": 1008,
-    "height": 290,
+    "x": 0,
+    "y": 342.4390243902439,
+    "z": 8000,
+    "height": 220.6829268292683,
     "width": 470,
-    "tabOrder": 1008
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "barChart",
-    "drillFilterOtherVisuals": true,
     "objects": {
       "legend": [
         {
@@ -28,31 +27,6 @@
                 "Literal": {
                   "Value": "'Bottom'"
                 }
-              }
-            }
-          }
-        }
-      ],
-      "title": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Categories'"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": "#333333"
               }
             }
           }
@@ -84,6 +58,8 @@
           }
         }
       ]
-    }
-  }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "4354e8d7a1e32263c106"
 }

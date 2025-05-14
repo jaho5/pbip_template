@@ -1,56 +1,17 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.7.0/schema.json",
   "name": "kpi_card3",
   "position": {
-    "x": 840,
-    "y": 80,
-    "z": 1005,
-    "height": 120,
-    "width": 340,
-    "tabOrder": 1005
+    "x": 638.51493139628735,
+    "y": 0,
+    "z": 4000,
+    "height": 90.810810810810821,
+    "width": 350.15334947538332,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "card",
-    "drillFilterOtherVisuals": true,
-    "objects": {
-      "title": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Completed This Month'"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": "#333333"
-              }
-            }
-          }
-        }
-      ],
-      "cardInstrumentation": [
-        {
-          "properties": {
-            "titleDisplayState": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Visible'"
-                }
-              }
-            }
-          }
-        }
-      ]
-    }
-  }
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "36776d8464d325e8e7de"
 }

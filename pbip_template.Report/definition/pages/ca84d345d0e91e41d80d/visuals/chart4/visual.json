@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.7.0/schema.json",
   "name": "chart4",
   "position": {
     "x": 640,
     "y": 520,
-    "z": 1007,
+    "z": 7000,
     "height": 200,
     "width": 592,
-    "tabOrder": 1007
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "gauge",

@@ -1,17 +1,16 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.7.0/schema.json",
   "name": "title_text",
   "position": {
     "x": 0,
     "y": 0,
-    "z": 1000,
+    "z": 0,
     "height": 60,
     "width": 1200,
-    "tabOrder": 1000
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "textbox",
-    "drillFilterOtherVisuals": true,
     "objects": {
       "general": [
         {
@@ -22,9 +21,9 @@
                   {
                     "value": "Dashboard Title",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontFamily": "Segoe UI",
-                      "fontSize": "24pt",
-                      "fontWeight": "bold"
+                      "fontSize": "24pt"
                     }
                   }
                 ]
@@ -32,29 +31,8 @@
             ]
           }
         }
-      ],
-      "background": [
-        {
-          "properties": {
-            "color": {
-              "solid": {
-                "color": "#0078D4"
-              }
-            }
-          }
-        }
-      ],
-      "foreground": [
-        {
-          "properties": {
-            "fontColor": {
-              "solid": {
-                "color": "#FFFFFF"
-              }
-            }
-          }
-        }
       ]
-    }
+    },
+    "drillFilterOtherVisuals": true
   }
 }

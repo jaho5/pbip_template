@@ -1,56 +1,17 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.7.0/schema.json",
   "name": "kpi_card3",
   "position": {
-    "x": 720,
-    "y": 80,
-    "z": 1004,
-    "height": 120,
+    "x": 500,
+    "y": 0,
+    "z": 4000,
+    "height": 91.3170731707317,
     "width": 230,
-    "tabOrder": 1004
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "card",
-    "drillFilterOtherVisuals": true,
-    "objects": {
-      "title": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Due Soon'"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": "#333333"
-              }
-            }
-          }
-        }
-      ],
-      "cardInstrumentation": [
-        {
-          "properties": {
-            "titleDisplayState": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Visible'"
-                }
-              }
-            }
-          }
-        }
-      ]
-    }
-  }
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "4354e8d7a1e32263c106"
 }

@@ -1,56 +1,17 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.7.0/schema.json",
   "name": "kpi_card2",
   "position": {
-    "x": 530,
-    "y": 80,
-    "z": 1004,
-    "height": 120,
-    "width": 290,
-    "tabOrder": 1004
+    "x": 319.25746569814368,
+    "y": 0,
+    "z": 3000,
+    "height": 90.810810810810821,
+    "width": 298.6602098466505,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "card",
-    "drillFilterOtherVisuals": true,
-    "objects": {
-      "title": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Due This Week'"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": "#333333"
-              }
-            }
-          }
-        }
-      ],
-      "cardInstrumentation": [
-        {
-          "properties": {
-            "titleDisplayState": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Visible'"
-                }
-              }
-            }
-          }
-        }
-      ]
-    }
-  }
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "36776d8464d325e8e7de"
 }

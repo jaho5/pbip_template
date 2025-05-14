@@ -1,17 +1,16 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.7.0/schema.json",
   "name": "trend_chart",
   "position": {
-    "x": 710,
-    "y": 220,
-    "z": 1007,
-    "height": 290,
+    "x": 490,
+    "y": 106.53658536585365,
+    "z": 7000,
+    "height": 220.6829268292683,
     "width": 470,
-    "tabOrder": 1007
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "lineChart",
-    "drillFilterOtherVisuals": true,
     "objects": {
       "legend": [
         {
@@ -28,31 +27,6 @@
                 "Literal": {
                   "Value": "'Bottom'"
                 }
-              }
-            }
-          }
-        }
-      ],
-      "title": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Trend (Monthly)'"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": "#333333"
               }
             }
           }
@@ -84,6 +58,8 @@
           }
         }
       ]
-    }
-  }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "4354e8d7a1e32263c106"
 }

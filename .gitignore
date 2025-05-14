@@ -1,2 +1,32 @@
+**/localSettings.json
 **/.pbi/localSettings.json
+*/.pbi/localSettings.json
 **/.pbi/cache.abf
+# Git files
+.git/
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*
+*_BASE_*
+*_LOCAL_*
+*_REMOTE_*
+
+# Power BI files
+*.pbix.bak
+*.pbixl
+.cache/
+*.pbids
+*.pbiviz.json
+*.ebadf
+*.tmdl
+*.rdl.data
+*.rptproj.rsuser
+*.rptproj.bak
+.pbi/
+DataMashup
+
+# Uncomment if you don't want to track template files
+# *.pbit
