@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "footer",
+  "position": {
+    "x": 0,
+    "y": 840,
+    "z": 1010,
+    "height": 60,
+    "width": 1200,
+    "tabOrder": 1010
+  },
+  "visual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Last Refreshed: [Update Date] | Power BI",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "10pt"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "Right"
+              }
+            ]
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": "#f0f0f0"
+              }
+            }
+          }
+        }
+      ],
+      "foreground": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": "#666666"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/pagesMetadata/1.0.0/schema.json",
+  "pageOrder": [
+    "ca84d345d0e91e41d80d",
+    "generic_dashboard_template",
+    "my_items_template"
+  ],
+  "activePageName": "my_items_template"
+}

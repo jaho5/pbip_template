@@ -1,0 +1,79 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "items_table",
+  "position": {
+    "x": 220,
+    "y": 530,
+    "z": 1008,
+    "height": 290,
+    "width": 960,
+    "tabOrder": 1008
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'My Active Items'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": "#333333"
+              }
+            }
+          }
+        }
+      ],
+      "grid": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10"
+                }
+              }
+            },
+            "rowPadding": {
+              "expr": {
+                "Literal": {
+                  "Value": "5"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": "#666666"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#f9f9f9"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
