@@ -3,7 +3,8 @@
   "pageOrder": [
     "ca84d345d0e91e41d80d",
     "generic_dashboard_template",
-    "my_items_template"
+    "my_items_template",
+    "dashboard_template_grid"
   ],
-  "activePageName": "my_items_template"
+  "activePageName": "ca84d345d0e91e41d80d"
 }

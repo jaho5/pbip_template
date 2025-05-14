@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.7.0/schema.json",
+  "name": "Card_R2C3",
+  "position": {
+    "x": 503.17241379310354,
+    "y": 211.47826086956519,
+    "z": 10000,
+    "height": 185.04347826086956,
+    "width": 241.10344827586215,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "card",
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "3bf077202e3168628a3b"
+}

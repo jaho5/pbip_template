@@ -4,17 +4,5 @@
   "displayName": "Generic Dashboard Template",
   "displayOption": "FitToPage",
   "height": 720,
-  "width": 1280,
-  "config": {
-    "visibility": {
-      "mobile": true,
-      "desktop": true
-    },
-    "backgrounds": [
-      {
-        "color": "#FFFFFF",
-        "transparency": 0
-      }
-    ]
-  }
+  "width": 1280
 }
