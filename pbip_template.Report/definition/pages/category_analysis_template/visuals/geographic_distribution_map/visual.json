@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.7.0/schema.json",
+  "name": "geographic_distribution_map",
+  "position": {
+    "x": 810,
+    "y": 490,
+    "z": 5004,
+    "height": 120,
+    "width": 450,
+    "tabOrder": 5004
+  },
+  "visual": {
+    "visualType": "map",
+    "objects": {
+      "legend": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

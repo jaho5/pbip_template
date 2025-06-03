@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.7.0/schema.json",
+  "name": "key_metrics_card",
+  "position": {
+    "x": 1040,
+    "y": 190,
+    "z": 5001,
+    "height": 120,
+    "width": 220,
+    "tabOrder": 5001
+  },
+  "visual": {
+    "visualType": "multiRowCard",
+    "objects": {
+      "cardTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
